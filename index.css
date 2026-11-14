@@ -1,0 +1,36 @@
+.Heading {
+    color: white;
+    text-align: center;
+}
+
+.Body {
+    color: white;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 15px;
+}
+
+.Croutonbutton {
+    display: flex;
+    background-color: grey;
+    transition: background-color 0.3s;
+    margin: 20px;
+    position: relative;
+    left: 590px;
+    color: white;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 15px;
+    width: 33px;
+    height: 31px;
+}
+
+.Croutonbutton:hover {
+    transform: scale(1.1);
+    background-color: white;
+}
+
+body {
+    background-color: black;
+}
+
